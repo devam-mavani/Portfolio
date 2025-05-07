@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+
+html,
+body {
+  background-color: black;
+  font-family: "Poppins";
+  scroll-behavior: smooth;
+}
+
+.list_ele {
+  @apply flex p-7;
+}
+
+.list_ele:hover {
+  @apply transition-colors duration-500 underline underline-offset-20 decoration-pink-900 decoration-4;
+}
+
+.info_about {
+  @apply flex rounded-4xl text-amber-100 ml-170 p-10 bg-gradient-to-r from-pink-500/10 to-purple-500/0;
+}
+
+.info_about:hover {
+  @apply transition-colors duration-700 ease-in-out bg-gradient-to-r from-pink-800/50 to-pink-600/0;
+}
+
+.project_info {
+  @apply text-white h-150 w-110 mx-70 bg-gradient-to-b from-[#7D4561]/50 to-[#E37DB0]/10 rounded-4xl;
+}
