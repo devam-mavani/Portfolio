@@ -6,7 +6,9 @@ const Projects = () => {
   return (
     <>
       <section id="projects" className="z-1">
-        <header className="text-white font-bold text-6xl p-30 z-6">PROJECTS</header>
+        <header className="text-white font-bold text-6xl p-30 z-6">
+          PROJECTS
+        </header>
 
         <div className="grid grid-cols-4">
           <div className="project_info z-1">
