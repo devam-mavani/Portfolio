@@ -1,6 +1,6 @@
 import React from "react";
-import pic_1 from "../assets/todo list.png";
-import pic_2 from "../assets/Machine_Learning .jpeg";
+import pic_1 from "../assets/todo_list.png";
+import pic_2 from "../assets/machine_learning.jpeg";
 
 const Projects = () => {
   return (
