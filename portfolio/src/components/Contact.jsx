@@ -35,7 +35,7 @@ const Contact = () => {
             <img src={insta} className="h-10 w-10" />
             <a
               href="https://www.instagram.com/devmm_13/"
-              className="pt-1 px-5 text-white font-medium text-2xl hover:text-blue-500"
+              className="pt-1 px-5 text-white font-medium text-2xl"
             >
               devmm_13
             </a>
