@@ -12,7 +12,7 @@ const Projects = () => {
 
         <div className="grid grid-cols-4">
           <div className="project_info z-1">
-            <img className="h-[50] w-[10] p-10" src={pic_1} />
+            <img src={pic_1} className="h-[50] w-[10] p-10" alt="tetet" />
             <ul className="space-y-5">
               <li className="text-4xl font-bold px-10 ">ToDo-List</li>
               <li className="text-2xl m-5 p-5">
@@ -24,7 +24,7 @@ const Projects = () => {
           </div>
 
           <div className="project_info">
-            <img className="h-[50] w-[10] p-10" src={pic_2} />
+            <img className="h-[50] w-[10] p-10" src={pic_2} alt="uyt" />
             <ul className="space-y-5">
               <li className="text-4xl font-bold px-10 ">
                 Micro expression Detector
