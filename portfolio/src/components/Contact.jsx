@@ -16,7 +16,7 @@ const Contact = () => {
             <img src={git} className="h-10 w-10" />
             <a
               href="https://github.com/devam-mavani"
-              className="pt-1 px-5 text-white font-medium text-2xl"
+              className="pt-1 px-5 text-white font-medium text-2xl hover:text-blue-500"
             >
               devam-mavani
             </a>
@@ -25,7 +25,7 @@ const Contact = () => {
             <img src={mail} className="h-10 w-10" />
             <a
               href="mailto:devam137mavani@gmail.com"
-              className="pt-1 px-5 text-white font-medium text-2xl"
+              className="pt-1 px-5 text-white font-medium text-2xl hover:text-blue-500"
             >
               devam137mavani@gmail.com
             </a>
@@ -35,7 +35,7 @@ const Contact = () => {
             <img src={insta} className="h-10 w-10" />
             <a
               href="https://www.instagram.com/devmm_13/"
-              className="pt-1 px-5 text-white font-medium text-2xl"
+              className="pt-1 px-5 text-white font-medium text-2xl hover:text-blue-500"
             >
               devmm_13
             </a>
